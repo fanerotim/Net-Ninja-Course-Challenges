@@ -36,8 +36,13 @@ main {
 }
 
 .menu-button {
+  all: unset;
+  color: white;
+  font-size: 2rem;
   cursor: pointer;
   z-index: 100;
+
+  position: relative;
 }
 
 /* open state */
@@ -66,5 +71,48 @@ main {
   transition: transform .5s;
 }
 
-
 /* transitions */
+
+.line,
+.line::before,
+.line::after {
+  display: block;
+  width: 3rem;
+  height: .3rem;
+
+  transition: transform 350ms ease-in-out;
+}
+
+.line {
+  background-color: white;
+}
+
+.line::before,
+.line::after {
+  content: '';
+  position: absolute;
+  background-color: white;
+}
+
+.line::before {
+  bottom: 9px;
+}
+
+.line::after {
+  bottom: 18px;
+}
+
+.line[class*='open'] {
+  transform: rotate(-45deg) translateX(3px);
+}
+
+.line[class*='open']:after {
+  transform: rotate(90deg) translateX(18px);
+}
+
+.line[class*='open']:before {
+  opacity: 0;
+  transition: opacity .3s;
+}
+
+
