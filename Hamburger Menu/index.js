@@ -14,17 +14,13 @@ navButton.addEventListener('click', () => {
     
     if (!isOpen) {
         navContainer.classList.add('open');
-        lineElement.classList.add('open')
+        lineElement.classList.add('open');
         // disable page scroll when menu is open
-        document.body.style.overflow = 'hidden'
-        // navButton.textContent = 'x'
+        document.body.style.overflow = 'hidden';
     } else {
         navContainer.classList.remove('open');
-        lineElement.classList.remove('open')
+        lineElement.classList.remove('open');
         // enable page scroll when menu is closed
-        document.body.style.overflow = 'auto'
-
-        // navButton.textContent = '≡'
-
+        document.body.style.overflow = 'auto';
     }
 })
