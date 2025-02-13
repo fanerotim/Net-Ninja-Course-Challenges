@@ -27,4 +27,29 @@ form input {
   /* border: 1px solid green; */
 }
 
+form input:focus {
+  outline: none;
+}
+
 /* solution styles */
+
+/* Change color of tick when email is valid */
+
+.tick {
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+}
+
+.valid {
+  transform: translateY(0);
+  opacity: 1;
+  color: rgb(37, 177, 37);
+}
+
+/* Change color of input border when email is valid */
+
+.valid-email {
+  border: 2px solid rgb(14, 177, 14);
+  outline: none;
+}
