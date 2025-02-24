@@ -9,3 +9,34 @@ body {
 }
 
 /* solution styles */
+
+.switch {
+  position: relative;
+  width: 50px;
+  height: 22px;
+  border-radius: 30px;
+  background-color: rgb(53, 168, 53);
+  margin: 200px auto;
+
+  cursor: pointer;
+}
+
+.switch::after {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  content: '';
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 350ms;
+}
+
+input:checked + .switch::after {
+  left: 30px;
+}
+
+input:checked + .switch {
+  background-color: rgb(167, 40, 40);
+}
