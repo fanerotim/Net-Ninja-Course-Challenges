@@ -2,6 +2,13 @@
 
 :root {
   --primary: #00b29d;
+  --border-color: rgb(194, 187, 187);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -14,6 +21,34 @@ body {
 }
 
 /* buttons */
+
+.nav {
+  border: 1px solid var(--border-color);
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+  border-right: 1px solid var(--border-color);
+  padding: .5rem;
+  width: 200px;
+  font-size: .9rem;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li:active {
+  background-color: rgb(146, 231, 146);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(48, 46, 46);
+}
 
 
 /* panels */
