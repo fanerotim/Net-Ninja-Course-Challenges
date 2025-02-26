@@ -16,8 +16,9 @@ body {
   font-family: "Poppins";
 }
 .tabs {
-  width: 600px;
+  width: 500px;
   margin: 100px auto;
+  background-color: white;;
 }
 
 /* buttons */
@@ -25,7 +26,6 @@ body {
 .nav {
   border: 1px solid var(--border-color);
   display: flex;
-  width: 70%;
   margin: 0 auto;
 }
 
@@ -52,3 +52,21 @@ li:active {
 
 
 /* panels */
+
+#product {
+  border: 1px solid var(--border-color);
+  border-top: none;
+  padding: .5rem;
+  margin: 0 auto;
+}
+
+#product h1 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+#product p {
+  color: rgb(56, 56, 56);
+  font-size: .8rem;
+  margin-bottom: .5rem;
+}
