@@ -53,20 +53,30 @@ li:active {
 
 /* panels */
 
-#product {
+#product,
+#delivery,
+#returns {
   border: 1px solid var(--border-color);
   border-top: none;
   padding: .5rem;
   margin: 0 auto;
 }
 
-#product h1 {
+#product h1,
+#delivery h1,
+#returns h1 {
   font-size: 1.1rem;
   margin-bottom: 1rem;
 }
 
-#product p {
+#product p,
+#delivery p,
+#returns p {
   color: rgb(56, 56, 56);
   font-size: .8rem;
   margin-bottom: .5rem;
+}
+
+a:active #product {
+  opacity: 0;
 }
