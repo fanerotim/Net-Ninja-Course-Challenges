@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,20 +7,45 @@
   <title>CSS-Only Tabs</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  
+
+  <input class="product-checkbox" type="checkbox" id="product">
+  <input class="delivery-checkbox" type="checkbox" id="delivery">
+  <input class="returns-checkbox" type="checkbox" id="returns">
+
   <div class="tabs">
-    <div class="buttons">
+    <!-- <div class="buttons">
       <ul class="nav">
         <li><a class="nav-link" href="/index.html#product">Product Details</a></li>
         <li><a class="nav-link" href="/index.html#delivery">Delivery Info</a></li>
         <li><a class="nav-link" href="/index.html#returns">Returns Info</a></li>
-      </ul>
+      </ul> -->
+
+    <div class="tabs-container">
+
+      <label for="product" class="tabs-item" id="tab-product">
+        Product Details
+      </label>
+
+
+      <label for="delivery" class="tabs-item">
+        Delivery Info
+      </label>
+
+      <label for="returns" class="tabs-item">
+        Returns Info
+      </label>
     </div>
 
-    <div class="panels">
-      <!-- content panels go here -->
-      <section id="product">
+  </div>
+
+
+
+  <div class="panels">
+    <!-- content panels go here -->
+
+    <!-- <section id="product">
         <h1>Product Details</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident officiis, nemo ipsam ex perferendis ipsum iusto voluptatum recusandae earum nobis deserunt qui explicabo aperiam accusantium?</p>
       </section>
@@ -32,8 +58,28 @@
       <section id="returns">
         <h1>Returns Info</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident officiis, nemo ipsam ex perferendis ipsum iusto voluptatum recusandae earum nobis deserunt qui explicabo aperiam accusantium?</p>
-      </section>
-    </div>
+      </section> -->
+
+    <section id="panel-product">
+      <h1>Product Details</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident officiis, nemo ipsam ex perferendis ipsum
+        iusto voluptatum recusandae earum nobis deserunt qui explicabo aperiam accusantium?</p>
+    </section>
+
+    <section id="panel-delivery">
+      <h1>Delivery Details</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident officiis, nemo ipsam ex perferendis ipsum
+        iusto voluptatum recusandae earum nobis deserunt qui explicabo aperiam accusantium?</p>
+    </section>
+
+    <section id="panel-returns">
+      <h1>Returns Info</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident officiis, nemo ipsam ex perferendis ipsum
+        iusto voluptatum recusandae earum nobis deserunt qui explicabo aperiam accusantium?</p>
+    </section>
+
+  </div>
   </div>
 </body>
+
 </html>
