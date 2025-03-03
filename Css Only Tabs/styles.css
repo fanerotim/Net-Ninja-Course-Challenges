@@ -46,11 +46,7 @@ li:last-child {
 }
 
 li:active {
-  background-color: rgb(146, 231, 146);
-}
-
-a:active #product {
-  display: none;
+  background-color: var(--primary);
 }
 
 .nav-link {
@@ -70,6 +66,10 @@ a:active #product {
   margin: 0 auto;
 }
 
+section:target {
+  background-color: #f2f2f2;
+}
+
 #product h1,
 #delivery h1,
 #returns h1 {
@@ -85,13 +85,12 @@ a:active #product {
   margin-bottom: .5rem;
 }
 
-
 /* second solution: tabs */
 
-.tabs-container {
+/* .tabs-container {
   display: flex;
   justify-content: start;
-  border: 1px solid var(--border-color)
+  border: 1px solid var(--border-color);
 }
 
 .tabs-item {
@@ -103,18 +102,22 @@ a:active #product {
   padding: .4rem;
 }
 
+.tabs-item:last-child {
+  border-right: none;
+}
+
 .tabs-item:active {
   background-color: var(--primary);
-}
+} */
 
 /* second solution: panels */
 
-.panels {
+/* .panels {
   height: 200px;
   width: 500px;
   margin: 0 auto;
   position: relative;
-  border: 1px solid red;
+  background-color: white;
 }
 
 #panel-product,
@@ -127,6 +130,7 @@ a:active #product {
   position: absolute;
   top: 0;
   left: 0;
+  background-color: transparent;
 }
 
 #panel-product h1,
@@ -137,14 +141,15 @@ a:active #product {
 
 .product-checkbox:checked ~ .panels > #panel-product {
   display: block;
+  background-color: white;
 }
 
 .delivery-checkbox:checked ~ .panels > #panel-delivery {
-  z-index: 10;
   display: block;
+  background-color: white;
 }
 
 .returns-checkbox:checked ~ .panels > #panel-returns {
-  z-index: 10;
   display: block;
-}
+  background-color: white;
+} */
