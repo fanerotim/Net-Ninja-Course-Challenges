@@ -52,7 +52,6 @@ li:active {
 .nav-link {
   text-decoration: none;
   color: rgb(48, 46, 46);
-  /* transition: all 350ms ease-in; */
 }
 
 /* panels */
@@ -66,8 +65,12 @@ li:active {
   margin: 0 auto;
 }
 
-section:target {
-  background-color: #f2f2f2;
+section {
+  display: none;
+}
+
+:target {
+  display: block;
 }
 
 #product h1,
@@ -84,72 +87,3 @@ section:target {
   font-size: .8rem;
   margin-bottom: .5rem;
 }
-
-/* second solution: tabs */
-
-/* .tabs-container {
-  display: flex;
-  justify-content: start;
-  border: 1px solid var(--border-color);
-}
-
-.tabs-item {
-  all: unset;
-  cursor: pointer;
-  width: 200px;
-  border-right: 1px solid var(--border-color);
-  font-size: .8rem;
-  padding: .4rem;
-}
-
-.tabs-item:last-child {
-  border-right: none;
-}
-
-.tabs-item:active {
-  background-color: var(--primary);
-} */
-
-/* second solution: panels */
-
-/* .panels {
-  height: 200px;
-  width: 500px;
-  margin: 0 auto;
-  position: relative;
-  background-color: white;
-}
-
-#panel-product,
-#panel-delivery,
-#panel-returns {
-  display: none;
-  margin: 20px auto;
-  width: 500px;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: transparent;
-}
-
-#panel-product h1,
-#panel-delivery h1,
-#panel-returns h1 {
-  font-size: 1.1rem;
-}
-
-.product-checkbox:checked ~ .panels > #panel-product {
-  display: block;
-  background-color: white;
-}
-
-.delivery-checkbox:checked ~ .panels > #panel-delivery {
-  display: block;
-  background-color: white;
-}
-
-.returns-checkbox:checked ~ .panels > #panel-returns {
-  display: block;
-  background-color: white;
-} */
