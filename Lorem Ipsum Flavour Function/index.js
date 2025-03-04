@@ -12,7 +12,8 @@ const flavours = {
 
 // functions
 const flavourize = (inputText, flavour) => {
- 
+  console.log('input text: ', inputText.toUpperCase());
+  console.log('flavour: ', flavour.toUpperCase());
 }
 
 const updateOutput = (text) => {
@@ -23,7 +24,16 @@ const updateOutput = (text) => {
 buttons.forEach(b => {
   b.addEventListener('click', (e) => {
 
+    // prevent default browser behavior (stop refresh)
+    e.preventDefault();
 
+    // get current flavour
+    const flavour = b.dataset.flavour;
+
+    // get input from user (text)
+    const userInput = textarea.value;
+    
+    flavourize(userInput, flavour);
   })
 })
 
