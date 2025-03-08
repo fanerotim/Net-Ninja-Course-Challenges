@@ -28,15 +28,12 @@ input {
 form img {
   width: 200px; 
   margin: 0 auto;
+  transform: translate(-50%, -50%);
 
   position: absolute;
-  top: 0;
-  left: 35%;
+  top: 60px;
+  left: 50%;
 }
-
-/* .open:has(~ input[type='password']:placeholder-shown) {
-  z-index: -1;
-} */
 
 .open:has(~ input[type='password']:focus) {
   z-index: -1;
