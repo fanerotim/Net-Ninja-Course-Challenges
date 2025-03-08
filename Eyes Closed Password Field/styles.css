@@ -28,14 +28,26 @@ input {
 form img {
   width: 200px; 
   margin: 0 auto;
+
+  position: absolute;
+  top: 0;
+  left: 35%;
 }
 
-input[type='password']:valid {
-  outline: 2px solid green;
+/* .open:has(~ input[type='password']:placeholder-shown) {
+  z-index: -1;
+} */
+
+.open:has(~ input[type='password']:focus) {
+  z-index: -1;
 }
 
-input[type='password']:invalid {
-  outline: 2px solid red;
+.open:has(~ input[type='password']:not(:focus)) {
+  z-index: 1;
+}
+
+.open:has(~ input[type='password']:invalid) {
+  z-index: 1;
 }
 
 
