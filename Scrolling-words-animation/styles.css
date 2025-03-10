@@ -18,4 +18,57 @@ section > div {
   text-align: left;
   height: 30px;
   line-height: 30px;
+  font-size: 1.5rem;
+}
+
+section {
+  overflow: hidden;
+}
+
+.word-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.word-list > span {
+  animation-name: text-loop;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  margin-bottom: 20px;
+}
+
+.word-list > span:nth-child(1) {
+  color: rgb(197, 27, 27);
+}
+
+.word-list > span:nth-child(2) {
+  color: rgb(76, 172, 76);
+}
+
+.word-list > span:nth-child(3) {
+  color: rgb(228, 228, 98);
+}
+
+.word-list > span:nth-child(4) {
+  color: rgb(175, 68, 175);
+}
+
+.word-list > span:nth-child(5) {
+  color: rgb(118, 152, 204);
+}
+
+/* animation */
+
+@keyframes text-loop {
+  from {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-200px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
 }
