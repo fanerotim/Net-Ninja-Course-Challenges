@@ -5,18 +5,49 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background: #333;
   text-align: center;
   padding: 20px;
   color: #fff;
 }
+
+section {
+  perspective: 1000px;
+}
+
 .card {
   position: relative;
   width: 300px;
   height: 300px;
   margin: 30px auto;
   text-align: center;
+
+  border: 2px solid white;
+  border-radius: .5rem;
+  background-color: #1d1c1c;
+
+  transition: transform .7s;
+  transform-style: preserve-3d;
 }
 
 /* solution */
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
