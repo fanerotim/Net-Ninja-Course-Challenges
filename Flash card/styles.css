@@ -35,6 +35,10 @@ section {
 /* solution */
 
 .card:hover {
+  cursor: pointer;
+}
+
+.rotate {
   transform: rotateY(180deg);
 }
 
@@ -50,4 +54,5 @@ section {
 
 .back {
   transform: rotateY(180deg);
+  color: rgb(206, 206, 28);
 }

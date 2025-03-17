@@ -4,5 +4,12 @@ const back = document.querySelector('.back');
 
 card.addEventListener('click', (e) => {
     
-    console.log('op!');
+    const curFace = e.target.getAttribute('class');
+
+    // if check that adds/ removes the rotate class on card
+    if (curFace == 'front') {
+        e.currentTarget.classList.add('rotate')
+    } else {
+        e.currentTarget.classList.remove('rotate')
+    }
 })
