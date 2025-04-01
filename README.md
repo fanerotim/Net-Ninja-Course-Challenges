@@ -13,6 +13,9 @@ Main goal here was to create a smooth transition effect on navigation button sta
 
 ### CSS-only toggle switch - no javascript solution:
 
-![image](https://github.com/user-attachments/assets/9b1c8ac4-8a46-497f-87cd-b84106182c5b)
-![image](https://github.com/user-attachments/assets/1681a3b9-166c-4ee1-bb09-56bffd31097f)
+<img src='https://github.com/user-attachments/assets/99088b34-b891-4e6f-a3eb-b90e5fe1324d' width="500" height="400"/>
+
+### Flashcard
+
+<img src='https://github.com/user-attachments/assets/25862d2e-3d74-412e-93d7-fa053e2f176b' width='500' height='400'/>
 
