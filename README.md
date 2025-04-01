@@ -9,7 +9,7 @@
 
 Main goal here was to create a smooth transition effect on navigation button state (open / closed)
 
-![hamburger-menu](https://github.com/user-attachments/assets/69f11d77-7c52-4196-9ab5-febfd701d4a4)
+<img src='https://github.com/user-attachments/assets/69f11d77-7c52-4196-9ab5-febfd701d4a4' width="400" height="400"/>
 
 ### CSS-only toggle switch - no javascript solution:
 
