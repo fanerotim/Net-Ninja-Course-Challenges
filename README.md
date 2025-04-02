@@ -27,3 +27,7 @@ Main goal here was to create a smooth transition effect on navigation button sta
 
 <img src='https://github.com/user-attachments/assets/67ea2881-62c9-4446-956c-9103ab0b3ff5' height='400'/>
 
+### Css-only tabs (solution without any js)
+
+<img src='https://github.com/user-attachments/assets/759d22e0-e97f-4581-9cb4-3888ebb204c5' height='400'/>
+
