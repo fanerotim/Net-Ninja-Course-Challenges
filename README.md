@@ -19,3 +19,7 @@ Main goal here was to create a smooth transition effect on navigation button sta
 
 <img src='https://github.com/user-attachments/assets/25862d2e-3d74-412e-93d7-fa053e2f176b' width='500' height='400'/>
 
+### Live Input Feedback
+
+<img src='https://github.com/user-attachments/assets/9b9b883f-7bb4-48df-bb35-1787dedb620e' width='500' height='500'/>
+
