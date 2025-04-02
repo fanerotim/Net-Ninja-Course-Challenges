@@ -23,3 +23,7 @@ Main goal here was to create a smooth transition effect on navigation button sta
 
 <img src='https://github.com/user-attachments/assets/9b9b883f-7bb4-48df-bb35-1787dedb620e' width='500' height='500'/>
 
+### Eyes Closed Password Field
+
+<img src='https://github.com/user-attachments/assets/67ea2881-62c9-4446-956c-9103ab0b3ff5' />
+
