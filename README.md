@@ -35,3 +35,7 @@ Main goal here was to create a smooth transition effect on navigation button sta
 
 <img src='https://github.com/user-attachments/assets/1e5ef6dd-6162-4b99-9aeb-f0c684b7d688' height='400'/>
 
+### Lorem Ipsum Flavour Function
+
+<img src='https://github.com/user-attachments/assets/73742bb3-90cb-4c7b-b8da-13aa9ba0e7fc' height='400'/>
+
