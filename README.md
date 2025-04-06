@@ -31,3 +31,7 @@ Main goal here was to create a smooth transition effect on navigation button sta
 
 <img src='https://github.com/user-attachments/assets/759d22e0-e97f-4581-9cb4-3888ebb204c5' height='400'/>
 
+### Scrolling-words animation (no js used)
+
+<img src='https://github.com/user-attachments/assets/1e5ef6dd-6162-4b99-9aeb-f0c684b7d688' height='400'/>
+
