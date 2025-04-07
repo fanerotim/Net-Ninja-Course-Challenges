@@ -21,7 +21,7 @@
 
 ## Live Input Feedback
 
-<img src='https://github.com/user-attachments/assets/9b9b883f-7bb4-48df-bb35-1787dedb620e' height='400'/>
+<img src='https://github.com/user-attachments/assets/dedc2254-d523-4570-ae45-28683d5a1fcc' height='400'/>
 
 ## Eyes Closed Password Field
 
